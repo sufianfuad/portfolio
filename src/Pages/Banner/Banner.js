@@ -17,7 +17,8 @@ const Banner = () => {
                             <div className="banner-abt">
                                 <h2>Abu Sufian</h2>
                                 <p>I am a Front End Developer</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, veritatis ea deserunt libero voluptatem voluptate, nesciunt incidunt, vero blanditiis dolores distinctio laborum delectus aspernatur. Illum fuga magnam corporis veritatis praesentium!</p>
+                                <p>Hi There!. I'm Abu Sufian a Front End Web application Developer. I am expertise in Javascript, React js, React Bootstrap,Bootstrap 5,Node js,MongoDB, Express js, HTML5, CSS3, Material Ui.I have experience of 12+ web projects by using React js, MongoDB, Node js, Express js and other technologies. You can judge me by my projects.Also you will easily find those projects in my github account.
+                                </p>
                                 <div className="d-flex align-items-center">
                                     <Link to="/about">
                                         <button className="btn btn-primary resume-btn px-3 py-2 me-2 fw-bold">Read More</button>
