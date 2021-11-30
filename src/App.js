@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Pages/About/About';
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Router>
         <Switch>
           <Route exact path="/">
