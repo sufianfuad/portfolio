@@ -117,7 +117,7 @@ const Banner = () => {
                                 <div className="portfolio-contact">
                                     <dl className='contact-list'>
                                         <dt>AGE:</dt>
-                                        <dd>23</dd>
+                                        <dd>22</dd>
                                         <dt>PHONE:</dt>
                                         <dd>0178272844</dd>
                                         <dt>EMAIL:</dt>

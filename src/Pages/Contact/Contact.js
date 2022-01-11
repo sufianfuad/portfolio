@@ -29,7 +29,7 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-5">
-                            <div className='contact-list'>
+                            <div className='contacts-list'>
                                 <dl className='contactList'>
                                     <dt>Phone:</dt>
                                     <dd>01778272844</dd>

@@ -2,7 +2,8 @@
     box-sizing: inherit;
 }
 #profile{
-    background-color: rgb(128, 70, 182);
+    /* background-color: rgb(128, 70, 182); */
+    background-color: #373636;
     height: 70%;
 }
 .portfolioImg{
