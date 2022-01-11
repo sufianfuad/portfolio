@@ -7,6 +7,7 @@ import Resume from './Pages/Resume/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Pages/About/About';
+import NotFound from './Pages/NotFound/NotFound';
 function App() {
   return (
     <div className="">
@@ -27,9 +28,9 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          {/* <Route path="*">
-            
-          </Route> */}
+          <Route path="*">
+            <NotFound />
+          </Route>
         </Switch>
       </Router>
     </div>

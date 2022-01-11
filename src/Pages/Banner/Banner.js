@@ -18,94 +18,94 @@ const Banner = () => {
     }
     return (
         <section id='profile'>
-            <Particles
-                id="tsparticles"
-                init={particlesInit}
-                loaded={particlesLoaded}
-                options={{
-                    fpsLimit: 60,
-                    interactivity: {
-                        events: {
-                            onClick: {
+            <div className="container">
+                <Particles
+                    id="tsparticles"
+                    init={particlesInit}
+                    loaded={particlesLoaded}
+                    options={{
+                        fpsLimit: 60,
+                        interactivity: {
+                            events: {
+                                onClick: {
+                                    enable: true,
+                                    mode: "push",
+                                },
+                                onHover: {
+                                    enable: true,
+                                    mode: "repulse",
+                                },
+                                resize: true,
+                            },
+                            modes: {
+                                bubble: {
+                                    distance: 40,
+                                    duration: 2,
+                                    opacity: 0.8,
+                                    size: 40,
+                                },
+                                push: {
+                                    quantity: 4,
+                                },
+                                repulse: {
+                                    distance: 20,
+                                    duration: 0.4,
+                                },
+                            },
+                        },
+                        particles: {
+                            color: {
+                                value: "#ffffff",
+                            },
+                            links: {
+                                color: "#ffffff",
+                                distance: 150,
                                 enable: true,
-                                mode: "push",
+                                opacity: 0.5,
+                                width: 1,
                             },
-                            onHover: {
+                            collisions: {
                                 enable: true,
-                                mode: "repulse",
                             },
-                            resize: true,
-                        },
-                        modes: {
-                            bubble: {
-                                distance: 40,
-                                duration: 2,
-                                opacity: 0.8,
-                                size: 40,
-                            },
-                            push: {
-                                quantity: 4,
-                            },
-                            repulse: {
-                                distance: 20,
-                                duration: 0.4,
-                            },
-                        },
-                    },
-                    particles: {
-                        color: {
-                            value: "#ffffff",
-                        },
-                        links: {
-                            color: "#ffffff",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 1,
-                        },
-                        collisions: {
-                            enable: true,
-                        },
-                        move: {
-                            direction: "bottom",
-                            enable: true,
-                            outMode: "bounce",
-                            random: true,
-                            speed: 2,
-                            straight: false,
-                        },
-                        number: {
-                            density: {
+                            move: {
+                                direction: "bottom",
                                 enable: true,
-                                area: 800,
+                                outMode: "bounce",
+                                random: true,
+                                speed: 2,
+                                straight: false,
                             },
-                            value: 100,
+                            number: {
+                                density: {
+                                    enable: true,
+                                    area: 800,
+                                },
+                                value: 100,
+                            },
+                            opacity: {
+                                value: 0.5,
+                            },
+                            shape: {
+                                type: "circle",
+                            },
+                            size: {
+                                random: true,
+                                value: 5,
+                            },
                         },
-                        opacity: {
-                            value: 0.5,
-                        },
-                        shape: {
-                            type: "circle",
-                        },
-                        size: {
-                            random: true,
-                            value: 5,
-                        },
-                    },
-                    detectRetina: true,
-                }}
-            />
+                        detectRetina: true,
+                    }}
+                />
 
-            <div className="banner-container">
-                <div className="container">
+                <div className="banner-container">
                     <NavBar></NavBar>
                     <div className="row portfolio-profile">
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-lg-4 col-12">
                             <div className='img-fluid d-sm-block d-none'>
                                 <img className='portfolioImg' src={profileImg} alt="" />
                             </div>
                         </div>
-                        <div className="col-md-8">
+                        <div className="col-md-8 col-lg-8 col-12">
                             <div className='text-white'>
                                 <p className='portfolio-name'>Abu Sufian</p>
                                 <p className='portfolio-work'>I am a Front End Developer</p>
