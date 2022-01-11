@@ -2,3 +2,76 @@
     padding: 50px 0;
     background-color: #F3F5F9;
 }
+#contact{
+    /* background-color: rgb(144, 99, 187); */
+    background-color: #373636;
+}
+.contact-header{
+    margin-top: 40px;
+    color: #F3F5F9;
+    font-weight: 700;
+}
+.contacts-form-title{
+    color: #F3F5F9;
+}
+.contact-list{
+
+}
+.contactList{
+    font-size: 16px;
+    line-height: 24px;
+}
+.contacts-form input{
+    width: 100%;
+    /* background-color: transparent; */
+    border-radius: 3px;
+    border: 1px solid #F3F5F9;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: visible;
+}
+.contacts-form-title{
+    margin-bottom: 20px;
+}
+.form-group{
+    /* margin-bottom: 15px; */
+    margin-bottom:1rem;
+    position: relative;
+}
+.contacts-form textarea{
+    width: 100%;
+    /* background-color: transparent; */
+    border-radius: 3px;
+    border: 1px solid #F3F5F9;
+    padding: 10px;
+    height: 115px;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+.send-btn .site-btn--form{
+    width: 100%;
+    border: none !important;
+    box-shadow: 0 1px 29px rgb(0 0 0 / 16%);
+    position: relative;
+}
+.send-btn{
+    background-color: #6d56c1;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 15px;
+    /* min-width: 170px; */
+    text-align: center;
+    display: inline-block;
+    color: #fff!important;
+    font-weight: 600;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+}
+

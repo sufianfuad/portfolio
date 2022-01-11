@@ -1,4 +1,88 @@
-
+*, :before, :after{
+    box-sizing: inherit;
+}
+#profile{
+    background-color: rgb(128, 70, 182);
+    height: 70%;
+}
+.portfolioImg{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #F3F5F9;
+}
+.portfolio-profile{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+    color: #fff;
+}
+.profile-details{
+ 
+}
+.portfolio-name{
+    color: #fff;
+    font-size: 48px;  
+    font-weight: 700;
+    line-height: 30px;
+}
+.portfolio-work{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.portfolio-contact{
+    margin-bottom: 20px;
+}
+dl{
+    margin-top:0px;
+}
+.contact-list{
+    font-size: 16px;
+    line-height: 24px;
+    color: lightgray;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute; */
+}
+.contact-list dt{
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.contact-list dd{
+    /* margin-left: 20px; */
+    /* display: flex;
+    position: relative; */
+    padding-left: 100px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.contact-list dd a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact-list dd a:hover{
+    text-decoration: underline;
+    transition: .3s;
+}
 /* .banner-container{
     width: 100%;
     height: 600px;
@@ -19,11 +103,11 @@
 .banner-details{
     padding-top: 100px;
 } */
-.banner{
+/* .banner{
     text-align: left;
-}
-.banner-img{
-}
-.resume-btn{
+} */
+/* .banner-img{
+} */
+/* .resume-btn{
     background-color: blueviolet;
-}
+} */

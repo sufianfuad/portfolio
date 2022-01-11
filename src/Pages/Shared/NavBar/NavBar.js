@@ -8,7 +8,7 @@ const NavBar = () => {
         <>
             <Navbar className="navbar fw-bolder" collapseOnSelect expand="lg" variant="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="#home">Abu Sufian</Navbar.Brand>
+                    <Navbar.Brand href="#home">Sufian</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link className="menu-link text-black fw-bold"
