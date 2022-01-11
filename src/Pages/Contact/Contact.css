@@ -74,7 +74,7 @@
     font-size: 16px;
     line-height: 24px;
 }
-.send-btn .site-btn--form{
+.send-btn .send-btn--form{
     width: 100%;
     border: none !important;
     box-shadow: 0 1px 29px rgb(0 0 0 / 16%);
