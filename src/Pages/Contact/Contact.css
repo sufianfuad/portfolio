@@ -6,22 +6,43 @@
     /* background-color: rgb(144, 99, 187); */
     background-color: #373636;
 }
-.contact-header{
-    margin-top: 40px;
+.contacts{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.contact-title{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 42px;
     color: #F3F5F9;
-    font-weight: 700;
+}
+.contacts-info{
+    margin-top: 20px;
 }
 .contacts-form-title{
     color: #F3F5F9;
 }
-.contacts-list{
+.contacts-info-list{
+    margin-bottom: 45px;
+}
+/* .contacts-list{
+    font-size: 16px;
+    line-height: 24px;
+    color: lightgray;
+} */
+.contactList{
     font-size: 16px;
     line-height: 24px;
     color: lightgray;
 }
-.contactList{
-    font-size: 16px;
-    line-height: 24px;
+.contactList dt{
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contactList dd{
+    padding-left: 100px;
+    margin-bottom: 15px;
 }
 .contacts-form input{
     width: 100%;

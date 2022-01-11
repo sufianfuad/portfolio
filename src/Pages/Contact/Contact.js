@@ -24,12 +24,12 @@ const Contact = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <p className='contact-header'>Get In Touch</p>
+                            <p className='contact-title'>Get In Touch</p>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-md-5">
-                            <div className='contacts-list'>
+                    <div className="row contacts-info">
+                        <div className="col-md-5 col-lg-4">
+                            <div className='contacts-info-list'>
                                 <dl className='contactList'>
                                     <dt>Phone:</dt>
                                     <dd>01778272844</dd>

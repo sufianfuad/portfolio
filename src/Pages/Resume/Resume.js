@@ -2,7 +2,7 @@ import React from 'react';
 import './Resume.css';
 const Resume = () => {
     return (
-        <div className="resume-container">
+        <div className="resume-container container text-center">
             <div className="resume-info">
                 <h2>Here Are My Resume</h2>
                 <p>Please Download, If you want to see my details information</p>

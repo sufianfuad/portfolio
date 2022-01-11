@@ -29,20 +29,21 @@ const projects = [
 ];
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div className="projects-container container">
             <div className="heading-title text-center">
                 <h1>
                     Portfolio Projects
                     <span className="dot-color">.</span>
                 </h1>
             </div>
-            <div className="projects-part">
-                <div className="container">
+            <div className="projects-part container">
+                <div className="">
                     <div className="row">
                         {
                             projects.map((project) => (
                                 <Project key={project.id} project={project} />
                             ))}
+
                     </div>
                 </div>
             </div>

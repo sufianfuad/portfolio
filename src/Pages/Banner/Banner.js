@@ -97,11 +97,6 @@ const Banner = () => {
             />
 
             <div className="banner-container">
-                {/* <div className="banner-background">
-                <div className="banner-img">
-
-                </div>
-            </div> */}
                 <div className="container">
                     <NavBar></NavBar>
                     <div className="row portfolio-profile">
@@ -115,7 +110,7 @@ const Banner = () => {
                                 <p className='portfolio-name'>Abu Sufian</p>
                                 <p className='portfolio-work'>I am a Front End Developer</p>
                                 <div className="portfolio-contact">
-                                    <dl className='contact-list'>
+                                    <dl className='contact-list contact-list-opacity-title'>
                                         <dt>AGE:</dt>
                                         <dd>22</dd>
                                         <dt>PHONE:</dt>
@@ -126,8 +121,16 @@ const Banner = () => {
                                         <dd>Sylhet, Bangladesh</dd>
                                     </dl>
                                 </div>
-                                <p className='portfolio-social'>
-
+                                <p className='social-portfolio'>
+                                    <a href="http://" target="_blank">
+                                        <small>LinkedIn</small>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <small>facebook</small>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <small>Twitter</small>
+                                    </a>
                                 </p>
                             </div>
                         </div>
